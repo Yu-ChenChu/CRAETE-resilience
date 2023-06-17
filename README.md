@@ -6,7 +6,8 @@ The data is part of the CREATE-resilience project, which aims to plan the solar 
 2. 'Daylength.ipynb' contains the code to aggregate sunshine data
 3. 'Out_LA.ipynb' contains the code to replace column 'start_link' or 'end_link' in dataset'Basecase.csv' with '0' if they are outside of LA.
 4. "Data" contains the two folders "LA_Sunrise_Sunset_Data" and "Travel_Trajectory_Data":     
-	1."LA_Sunrise_Sunset_Data" contains the raw and organized data of sunshine calculation.<br />		
+	1."LA_Sunrise_Sunset_Data" contains the raw and organized data of sunshine calculation.<br />
+ <pre>
    		1. '2018_2023_sunrise_sunset.csv' contains daily sunrise, sunset, and daylength data from 2018 to 2023<br />
   		2. 'sunrise_sunset_month.csv' contains five-year average monthly data of sunrise, sunset, and daylength from December 2018 to Febuary 2023 <br />
    		3. 'sunrise_sunset_season.csv' contains five-year average seasonal data of sunrise, sunset, and daylength from December 2018 to Febuary 2023<br />
