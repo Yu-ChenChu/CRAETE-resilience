@@ -6,11 +6,11 @@ The data is part of the CREATE-resilience project, which aims to plan the solar 
 2. 'Daylength.ipynb' contains the code to aggregate sunshine data
 3. 'Out_LA.ipynb' contains the code to replace column 'start_link' or 'end_link' in dataset'Basecase.csv' with '0' if they are outside of LA.
 4. "Data" contains the two folders "LA_Sunrise_Sunset_Data" and "Travel_Trajectory_Data":     
-	1."LA_Sunrise_Sunset_Data" contains the raw and organized data of sunshine calculation.<br />
-   &emsp;1. '2018_2023_sunrise_sunset.csv' contains daily sunrise, sunset, and daylength data from 2018 to 2023<br />
-  		2. 'sunrise_sunset_month.csv' contains five-year average monthly data of sunrise, sunset, and daylength from December 2018 to Febuary 2023 <br />
-   		3. 'sunrise_sunset_season.csv' contains five-year average seasonal data of sunrise, sunset, and daylength from December 2018 to Febuary 2023<br />
-        2. "Travel_Trajectory_Data" contains the raw and organized data for the replacement:<br />
-		1.'trips_out_of_LA.csv' lists the trips that have the origin or destination locating outside LA county.<br />
-		2.'Basecase.csv' is a travel trajectory dataset that contains all travel information of each trip.<br />
-		3.'Basecase2.csv' is the new travel trajectory dataset which 'start_link' or 'end_link' has been replaced. <br />
+	&emsp;1."LA_Sunrise_Sunset_Data" contains the raw and organized data of sunshine calculation.<br />
+		&emsp;1. '2018_2023_sunrise_sunset.csv' contains daily sunrise, sunset, and daylength data from 2018 to 2023<br />
+  		&emsp;2. 'sunrise_sunset_month.csv' contains five-year average monthly data of sunrise, sunset, and daylength from December 2018 to Febuary 2023 <br />
+   		&emsp;3. 'sunrise_sunset_season.csv' contains five-year average seasonal data of sunrise, sunset, and daylength from December 2018 to Febuary 2023<br />
+        &emsp;2. "Travel_Trajectory_Data" contains the raw and organized data for the replacement:<br />
+		&emsp;1.'trips_out_of_LA.csv' lists the trips that have the origin or destination locating outside LA county.<br />
+		&emsp;2.'Basecase.csv' is a travel trajectory dataset that contains all travel information of each trip.<br />
+		&emsp;3.'Basecase2.csv' is the new travel trajectory dataset which 'start_link' or 'end_link' has been replaced. <br />
