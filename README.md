@@ -5,11 +5,13 @@ The data is part of the CREATE-resilience project, which aims to plan the solar 
 1. 'Sunshine_extract.ipynb' contains the code to scrape sunshine data.Source: Sunrise Sunset(https://sunrise-sunset.org/us/los-angeles-ca/2022/1)
 2. 'Daylength.ipynb' contains the code to aggregate sunshine data
 3. 'Out_LA.ipynb' contains the code to replace column 'start_link' or 'end_link' in dataset'Basecase.csv' with '0' if they are outside of LA.
-4. "Data" contains the two folders "LA_Sunrise_Sunset_Data" and "Travel_Trajectory_Data": 	 
+4. "Data" contains the two folders "LA_Sunrise_Sunset_Data" and "Travel_Trajectory_Data":
+     
 	1."LA_Sunrise_Sunset_Data" contains the raw and organized data of sunshine calculation.		
    		1. '2018_2023_sunrise_sunset.csv' contains daily sunrise, sunset, and daylength data from 2018 to 2023
   		2. 'sunrise_sunset_month.csv' contains five-year average monthly data of sunrise, sunset, and daylength from December 2018 to Febuary 2023  
    		3. 'sunrise_sunset_season.csv' contains five-year average seasonal data of sunrise, sunset, and daylength from December 2018 to Febuary 2023
+   
         2. "Travel_Trajectory_Data" contains the raw and organized data for the replacement:
 		1.'trips_out_of_LA.csv' lists the trips that have the origin or destination locating outside LA county.
 		2.'Basecase.csv' is a travel trajectory dataset that contains all travel information of each trip.
